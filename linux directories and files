@@ -1,0 +1,8 @@
+
+done
+#!/bin/bash
+mkdir dir{1..10}
+for i in {1..10}
+do
+        touch dir$i/file$i
+done
